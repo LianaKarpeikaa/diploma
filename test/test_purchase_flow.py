@@ -34,10 +34,10 @@ class TestVinylTurntable:
         catalog_page.click_on_catalog_electronic_item()
         catalog_page.go_to_vinyl_turntable_page()
         popup.check_catalog_form_prover()
+        popup.check_catalog_form_prover()
         filter_catalog_view.select_in_stock_checkbox()
         filter_catalog_view.select_DJ_vinyl_turntable_checkbox()
         catalog_page.click_on_vinyl_turntable_item()
-        #test
 
 
 
