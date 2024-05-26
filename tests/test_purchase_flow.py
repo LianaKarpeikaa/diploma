@@ -5,6 +5,7 @@ from pages.popups import Popup
 from pages.filter_catalog_view import FilterCatalogView
 from pages.product_page import ProductPage
 from pages.cart_page import CartPage
+from pages.checkout_page import CheckoutPage
 
 
 @pytest.fixture(autouse=True)
@@ -26,29 +27,40 @@ def popup(driver):
 def filter_catalog_view(driver):
     yield FilterCatalogView(driver)
 
+
 @pytest.fixture(autouse=True)
 def product_page(driver):
     yield ProductPage(driver)
+
 
 @pytest.fixture(autouse=True)
 def cart_page(driver):
     yield CartPage(driver)
 
+@pytest.fixture(autouse=True)
+def checkout_page(driver):
+    yield CheckoutPage(driver)
+
+
 class TestVinylTurntable:
 
-    def test_purchase_flow_of_vinyl_turntable(self, main_page, catalog_page, popup, filter_catalog_view, product_page):
+    def test_purchase_flow_of_vinyl_turntable(self, main_page, catalog_page, popup, filter_catalog_view, product_page,
+                                              cart_page, checkout_page):
         popup.check_privacy_consent_dialog()
         main_page.click_on_catalog_button()
         popup.check_privacy_consent_dialog()
         catalog_page.click_on_catalog_electronic_item()
         catalog_page.go_to_vinyl_turntable_page()
         popup.check_catalog_form_prover()
-        popup.check_catalog_form_prover()
         filter_catalog_view.select_in_stock_checkbox()
         filter_catalog_view.select_DJ_vinyl_turntable_checkbox()
         catalog_page.click_on_vinyl_turntable_item()
         product_page.click_on_add_to_cart_button()
         product_page.click_on_cart_button()
+        cart_page.click_on_checkout_button()
+        assert checkout_page.get_title == "Оформление заказа", \
+            f"Expected header text: 'Оформление заказа', Actual: {checkout_page.get_title}"
+
 
 
 
