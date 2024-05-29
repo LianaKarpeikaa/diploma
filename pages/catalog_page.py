@@ -2,7 +2,7 @@ from selenium.webdriver import ActionChains
 
 from pages.base_page import BasePage
 from locators.catalog_page_locators import (BN_CATALOG_ELECTRONIC_ITEM, BN_CATALOG_AUDIO_ITEM,
-                                            BN_CATALOG_VINYL_TURNTABLE_ITEM, LINK_VINYL_TURNTABLE_ITEM)
+                                            BN_CATALOG_VINYL_TURNTABLE_ITEM, LINK_VINYL_TURNTABLE_ITEM, CATALOG_HEADER)
 
 
 class CatalogPage(BasePage):
@@ -22,6 +22,11 @@ class CatalogPage(BasePage):
     @property
     def vinyl_turntable_item(self):
         return self.wait_when_the_element_to_be_clickable(LINK_VINYL_TURNTABLE_ITEM)
+
+    @property
+    def catalog_header(self):
+        catalog_header = self.wait_when_the_element_to_be_visible(CATALOG_HEADER)
+        return catalog_header.text
 
     def click_on_catalog_electronic_item(self):
         self.catalog_electronic_item.click()
