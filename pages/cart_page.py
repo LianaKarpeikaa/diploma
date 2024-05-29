@@ -9,7 +9,7 @@ class CartPage(BasePage):
         return self.wait_when_the_element_to_be_visible(BN_CHECKOUT)
 
     def click_on_checkout_button(self):
-        self.click(BN_CHECKOUT)
+        self.checkout_button.click()
 
 
 

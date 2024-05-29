@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="80e0d3df-6d0b-4d67-bc49-fe114841eec3" name="Changes" comment="end the test">
+      <change beforePath="$PROJECT_DIR$/pages/cart_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/catalog_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/catalog_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/popups.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/popups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_purchase_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_purchase_flow.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="day-2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;assignee&quot;: &quot;LianaKarpeikaa&quot;,
+      &quot;author&quot;: &quot;LianaKarpeikaa&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LianaKarpeikaa&quot;,
+    &quot;author&quot;: &quot;LianaKarpeikaa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b6b32b92-71d4-419b-a21d-f4fa0076930f" />
+        <option name="url" value="https://github.com/LianaKarpeikaa/diploma" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/test_purchase_flow.py" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2gsRzqVXl4J4xXQy27p32ZMzk5b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_lesson.test_lesson1.executor": "Run",
+    "Python tests.Python tests for test_purchase_flow.TestVinylRecordPlayer.test_purchase_flow_of_vinyl_player.executor": "Run",
+    "Python tests.Python tests for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable.executor": "Run",
+    "Python tests.pytest for test_purchase_flow.TestVinylTurntable.executor": "Run",
+    "Python tests.pytest for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ulyan/PycharmProjects/diploma/.venv",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ulyan\PycharmProjects\diploma\diploma\src\enams" />
+      <recent name="C:\Users\ulyan\PycharmProjects\diploma\diploma\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable">
+    <configuration name="Python tests for test_lesson.test_lesson1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_lesson.test_lesson1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_purchase_flow.TestVinylTurntable" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_purchase_flow.TestVinylTurntable&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="diploma" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" />
+        <item itemvalue="Python tests.pytest for test_purchase_flow.TestVinylTurntable" />
+        <item itemvalue="Python tests.Python tests for tests.test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" />
+        <item itemvalue="Python tests.Python tests for test_lesson.test_lesson1" />
+        <item itemvalue="Python tests.Python tests for tests.test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80e0d3df-6d0b-4d67-bc49-fe114841eec3" name="Changes" comment="" />
+      <created>1716484563224</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716484563224</updated>
+    </task>
+    <task id="LOCAL-00001" summary="version 1">
+      <option name="closed" value="true" />
+      <created>1716666708847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716666708847</updated>
+    </task>
+    <task id="LOCAL-00002" summary="version 2">
+      <option name="closed" value="true" />
+      <created>1716667017919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716667017919</updated>
+    </task>
+    <task id="LOCAL-00003" summary="version 2">
+      <option name="closed" value="true" />
+      <created>1716668615371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716668615371</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version 2">
+      <option name="closed" value="true" />
+      <created>1716669939309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716669939309</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added tests for product and cart pages">
+      <option name="closed" value="true" />
+      <created>1716749564618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716749564618</updated>
+    </task>
+    <task id="LOCAL-00006" summary="end the test">
+      <option name="closed" value="true" />
+      <created>1716752692222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716752692222</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="version 1" />
+    <MESSAGE value="version 2" />
+    <MESSAGE value="added tests for product and cart pages" />
+    <MESSAGE value="end the test" />
+    <option name="LAST_COMMIT_MESSAGE" value="end the test" />
+  </component>
+</project>

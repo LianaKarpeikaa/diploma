@@ -24,7 +24,7 @@ class CatalogPage(BasePage):
         return self.wait_when_the_element_to_be_clickable(LINK_VINYL_TURNTABLE_ITEM)
 
     def click_on_catalog_electronic_item(self):
-        self.click(BN_CATALOG_ELECTRONIC_ITEM)
+        self.catalog_electronic_item.click()
 
     def go_to_vinyl_turntable_page(self):
         action = ActionChains(self.driver)

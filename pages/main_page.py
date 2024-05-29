@@ -9,5 +9,5 @@ class MainPage(BasePage):
         return self.wait_when_the_element_to_be_visible(BN_CATALOG)
 
     def click_on_catalog_button(self):
-        self.click(BN_CATALOG)
+        self.catalog_button.click()
 

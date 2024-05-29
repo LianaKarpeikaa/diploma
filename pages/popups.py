@@ -32,10 +32,10 @@ class Popup(BasePage):
         return self.wait_when_the_element_to_be_visible(BN_ACCEPT_CATALOG_FORM_POPOVER)
 
     def click_on_agree_button(self):
-        self.click(BN_AGREE)
+        self.agree_button.click()
 
     def click_on_accept_button(self):
-        self.click(BN_ACCEPT_CATALOG_FORM_POPOVER)
+        self.accept_button.click()
 
     def check_privacy_consent_dialog(self):
         if self.privacy_consent_dialog:
