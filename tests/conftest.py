@@ -54,4 +54,3 @@ def checkout_page(driver):
     yield CheckoutPage(driver)
 
 
-
