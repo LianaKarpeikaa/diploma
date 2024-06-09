@@ -1,5 +1,5 @@
 from pages.base_page import BasePage
-from locators.product_page_locators import BN_ADD_TO_CART, BN_CART
+from locators.product_page_locators import BN_ADD_TO_CART, BN_CART, PRODUCT_ADDED_FLAG
 
 
 class ProductPage(BasePage):
@@ -11,6 +11,9 @@ class ProductPage(BasePage):
     @property
     def cart_button(self):
         return self.wait_when_the_element_to_be_visible(BN_CART)
+
+    def product_added_flag(self):
+        return self.wait_when_the_element_to_be_visible(PRODUCT_ADDED_FLAG)
 
     def click_on_add_to_cart_button(self):
         self.add_to_cart_button.click()
