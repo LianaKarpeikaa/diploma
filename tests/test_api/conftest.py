@@ -56,3 +56,13 @@ def updated_pet_data():
         "status": "available"
     }
     return updated_pet_data
+
+
+@pytest.fixture(scope="session")
+def image_file():
+    return "C:/Users/ulyan/Desktop/Images/Cats/2023-03-29_14h59_04.png"
+
+
+@pytest.fixture
+def update_params():
+    return {'name': 'Mayyy', 'status': 'sold'}
