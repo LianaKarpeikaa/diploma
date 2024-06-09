@@ -7,8 +7,6 @@ class TestAPIPet:
 
     def test_create_pet(self, api_pet, pet_data):
         response = api_pet.create_pet(pet_data)
-        print(f"Status code: {response.status_code}")
-        print(f"Response JSON: {response.json()}")
 
         assert response.status_code == 200
 
@@ -23,11 +21,8 @@ class TestAPIPet:
         response = api_pet.get_pet_by_id(pet_id)
         assert response.status_code == 200
 
-
     def test_update_existing_pet(self, api_pet, updated_pet_data):
         response = api_pet.update_pet(updated_pet_data)
-        print(f"Status code: {response.status_code}")
-        print(f"Response JSON: {response.json()}")
         assert response.status_code == 200
 
         response_json = response.json()
