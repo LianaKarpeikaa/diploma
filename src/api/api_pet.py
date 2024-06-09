@@ -14,3 +14,6 @@ class APIPet(BaseApi):
     def delete_pet_by_id(self, pet_id: int):
         return self.delete(path=f"/pet/{pet_id}")
 
+    def update_pet(self, pet_data: dict):
+        return self.put(path=f"/pet", json_data=pet_data)
+

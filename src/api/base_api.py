@@ -29,3 +29,11 @@ class BaseApi:
         logger.info(f"DELETE URL = {self.base_url}{path}")
         logger.info(f"DELETE Headers = {self.default_headers}")
         return requests.delete(url=f"{self.base_url}{path}", headers=self.default_headers)
+
+    def put(self, path: str, json_data: dict, headers: dict = None):
+        if headers is not None:
+            self.default_headers.update(headers)
+        logger.info(f"PUT URL = {self.base_url}{path}")
+        logger.info(f"PUT Headers = {self.default_headers}")
+        logger.info(f"PUT JSON Data = {json_data}")
+        return requests.put(url=f"{self.base_url}{path}", json=json_data, headers=self.default_headers)

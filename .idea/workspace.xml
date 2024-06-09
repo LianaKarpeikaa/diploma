@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80e0d3df-6d0b-4d67-bc49-fe114841eec3" name="Changes" comment="end the test">
-      <change afterPath="$PROJECT_DIR$/src/api/api_pet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/base_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/pet_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_api/test_pet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/diploma.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diploma.iml" afterDir="false" />
+    <list default="true" id="80e0d3df-6d0b-4d67-bc49-fe114841eec3" name="Changes" comment="finish test onliner and added test api">
+      <change afterPath="$PROJECT_DIR$/tests/test_onliner/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locators/product_page_locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/product_page_locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_purchase_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_purchase_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api_pet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api_pet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/base_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/base_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_onliner/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_api/test_pet.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_api/test_pet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_onliner/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_purchase_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_onliner/test_purchase_flow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +98,7 @@
     "Python tests.pytest for test_pet.TestAPIPet.test_create_pet.executor": "Run",
     "Python tests.pytest for test_pet.TestAPIPet.test_delete_pet_by_id.executor": "Run",
     "Python tests.pytest for test_pet.TestAPIPet.test_get_pet_by_id.executor": "Run",
+    "Python tests.pytest for test_pet.TestAPIPet.test_update_existing_pet.executor": "Run",
     "Python tests.pytest for test_purchase_flow.TestVinylTurntable.executor": "Run",
     "Python tests.pytest for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -116,12 +111,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ulyan\PycharmProjects\diploma\tests\test_onliner" />
       <recent name="C:\Users\ulyan\PycharmProjects\diploma\src\api" />
       <recent name="C:\Users\ulyan\PycharmProjects\diploma\diploma\src\enams" />
       <recent name="C:\Users\ulyan\PycharmProjects\diploma\diploma\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_pet.TestAPIPet">
+  <component name="RunManager" selected="Python tests.pytest for test_pet.TestAPIPet.test_create_pet">
     <configuration name="pytest for test_pet.TestAPIPet" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="diploma" />
       <option name="ENV_FILES" value="" />
@@ -190,30 +186,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_pet.TestAPIPet.test_update_existing_pet" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="diploma" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable&quot;" />
+      <option name="_new_target" value="&quot;test_pet.TestAPIPet.test_update_existing_pet&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_pet.TestAPIPet.test_create_pet" />
         <item itemvalue="Python tests.pytest for test_pet.TestAPIPet" />
+        <item itemvalue="Python tests.pytest for test_pet.TestAPIPet.test_update_existing_pet" />
         <item itemvalue="Python tests.pytest for test_pet.TestAPIPet.test_delete_pet_by_id" />
         <item itemvalue="Python tests.pytest for test_pet.TestAPIPet.test_get_pet_by_id" />
-        <item itemvalue="Python tests.pytest for test_pet.TestAPIPet.test_create_pet" />
-        <item itemvalue="Python tests.pytest for test_purchase_flow.TestVinylTurntable.test_purchase_flow_of_vinyl_turntable" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716752692222</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finish test onliner and added test api">
+      <option name="closed" value="true" />
+      <created>1717868367941</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717868367941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +293,7 @@
     <MESSAGE value="version 2" />
     <MESSAGE value="added tests for product and cart pages" />
     <MESSAGE value="end the test" />
-    <option name="LAST_COMMIT_MESSAGE" value="end the test" />
+    <MESSAGE value="finish test onliner and added test api" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish test onliner and added test api" />
   </component>
 </project>
